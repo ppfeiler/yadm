@@ -7,6 +7,8 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 
 alias projects="cd /home/ppfeiler/projects"
+alias trash="cd /home/ppfeiler/projects/trash"
+alias ppfeiler="cd /home/ppfeiler/projects/ppfeiler"
 
 alias mkdir="mkdir -pv"
 
