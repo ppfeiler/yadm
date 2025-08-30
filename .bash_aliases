@@ -17,3 +17,5 @@ alias ping="ping -c 5"
 alias ports="netstat -tulanp"
 
 alias newpy="uvx cookiecutter gh:ppfeiler/template-python"
+
+alias restart-plasma="systemctl restart --user plasma-plasmashell"
