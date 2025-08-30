@@ -3,3 +3,5 @@
 	email = pfeiler.patrick@live.de
 [init]
 	defaultBranch = main
+[alias]
+	one = !git commit -a -m
