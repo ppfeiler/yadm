@@ -1,4 +1,4 @@
-# dotfiles
+# yadm
 
 <p align="center">
   <img src="./logo.png" alt="yadm logo" width="200"/>
