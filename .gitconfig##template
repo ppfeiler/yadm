@@ -1,0 +1,14 @@
+{% if yadm.hostname == "clfl14" %}
+[user]
+	name = Patrick Pfeiler
+	email = patrick.pfeiler@cloudflight.io
+{% else %}
+[user]
+	name = ppfeiler
+	email = pfeiler.patrick@live.de
+{% endif %}
+
+[init]
+	defaultBranch = main
+[alias]
+	one = !git commit -a -m
