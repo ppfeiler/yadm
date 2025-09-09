@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+yadm remote set-url origin git@github.com:ppfeiler/yadm.git
+yadm fetch -q origin
+echo "yadm-remote set to: $(yadm remote get-url origin)"
