@@ -20,4 +20,6 @@ alias newpy="uvx cookiecutter gh:ppfeiler/template-python"
 
 alias restart-plasma="systemctl restart --user plasma-plasmashell"
 
-eval "$(gh completion -s bash)"
+ypush() {
+  yadm commit -a -m "$*" && yadm push
+}
