@@ -20,6 +20,9 @@ alias newpy="uvx cookiecutter gh:ppfeiler/template-python"
 
 alias restart-plasma="systemctl restart --user plasma-plasmashell"
 
+alias decompress="tar -xzf"
+
 ypush() {
   yadm commit -a -m "$*" && yadm push
 }
+
